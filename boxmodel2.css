@@ -5,7 +5,7 @@ h1{ border:1px solid black;
     color:white;
     text-align:centre;
     font-family: 'Arial', sans-serif;
-    font-size:50px;
+    font-size:30px;
     font-weight: bold;
     font-display: swap;
     font-variant-emoji: small-caps;
@@ -14,7 +14,7 @@ h2{
     color:black;
     text-align:centre;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
 }
 /*boxmodel
 border= thickness, style, color
@@ -35,13 +35,13 @@ margin= need space outside */
 }
 .box2{ 
     border: 1px solid gray;
-    padding: 20px 100px;
+    padding: 220 px 100px;
     background-color: lightgray;
     font-family:'Courier New', Courier, monospace;
     font-size: 14px; 
     list-style-type: none;
-    width:300px;
-    margin: 50px auto;   
+    width:500px;
+    margin: 20px auto;   
     border-radius:10px;
     text-align:center;
 }
@@ -54,4 +54,8 @@ margin= need space outside */
     cursor: pointer;
     font-family:'Courier New', Courier, monospace;
     font-size: 16px; 
+    margin-bottom: 20px;
+}
+.centre{
+    text-align: center;
 }
