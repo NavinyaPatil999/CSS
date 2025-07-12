@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+
+}
+
+/*positions
+fixed 
+sticky
+static(default)
+relative
+absolute
+*/
+.card{
+    
+    border: 1px solid gray;
+    width: 270px;
+    background-color: rgb(249, 252, 249);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.card-img {
+    width: 100%;
+
+    border-radius: 20px;
+}

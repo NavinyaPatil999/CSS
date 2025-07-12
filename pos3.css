@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+.bg{
+    width: 1200px;
+    margin: 60px auto;
+    position: relative;
+}
+.moon{
+    border-radius:30px;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Roboto", Arial, sans-serif;
+    left: 3px;
+    z-index: 100;
+}
+.content{
+    position: absolute;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 30px;
+    bottom:150px;
+    left: 30px;
+    color: white;
+    z-index: 100;
+}
+.btn{
+    background-color: rgb(80, 76, 76);
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 25px;
+    bottom: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+.tint{
+    background-color: rgba(21, 29, 36, 0.379);
+    width: 1200px;
+    height: 570px;
+    position: absolute;
+    top: 0;
+    border-radius:30px;
+}
+/*zindex is use to set the layer no t to overlap the content*/
+/*  static= default
+    relative= relative to its normal position
+    absolute= relative to its nearest positioned ancestor
+    fixed= relative to the viewport
+    sticky= relative to the scroll position
+    z-index= the stack order of an element
+    */  

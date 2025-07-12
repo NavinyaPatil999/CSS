@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Alumni Sans SC", sans-serif;
+    
+    
+
+}
+.container{
+    width:660px;
+    font-size: 30px;
+    margin:90px auto;
+    font-family: "Alumni Sans SC", sans-serif;
+}
+.btn{
+    background-color: black;
+    padding: 16px 30px;
+    border: none;
+    font-size: 26px;
+    color: white;
+    border-radius: 25px;
+    position: fixed;
+    top: 3px;
+    font-family: "Alumni Sans SC", sans-serif;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 6px 0;
+     
+}
+/*
+.anime{
+    animation: moveAnime 2s infinite alternate;px 0;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-style:black ;
+    margin:35px auto;
+    padding: 50px;
+}*/
+.anime-img{
+    width: 100%;
+    border-radius: 19px;
+    
+}
+/* 
+CSS Position Property Cheat Sheet:
+
+1. static (default)
+   - Element follows normal document flow.
+   - top, left, right, bottom have no effect.
+
+2. relative
+   - Positioned relative to its normal position.
+   - top, left, right, bottom offset it, but space is preserved.
+
+3. absolute
+   - Removed from document flow.
+   - Positioned relative to the nearest positioned ancestor.
+
+4. fixed
+   - Removed from document flow.
+   - Positioned relative to the viewport; stays in place on scroll.
+
+5. sticky
+   - Acts like relative until a scroll threshold is met.
+   - Then it becomes fixed.
+*/
