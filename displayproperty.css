@@ -1,0 +1,63 @@
+/* display properties
+block => does not allow other elements to be on the same line.
+         allow to have a width and height.
+         example: div, p, h1, h2, h3, h4, h5, h6
+
+inline => allows other elements to be on the same line
+            does not allow to have a width and height.
+            example: span, a, img, strong, em
+
+inline-block => allows other elements to be on the same line but behaves like a block element
+            allows to have a width and height.
+            example: button, input, select, textarea, img
+
+
+flex => allows elements to be arranged in a flexible layout
+      
+grid => allows elements to be arranged in a grid layout
+table => allows elements to be arranged in a table layout   
+
+*/
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.box {
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.block {
+  display: block;
+  background-color: #ff6f61;
+  margin: 10px 0;
+}
+
+.inline {
+  display: inline;
+  background-color: #6b5b95;
+  margin: 0 10px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  background-color: #88b04b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.flex-container .box {
+  background-color: #f7cac9;
+  color: black;
+  flex: 1;
+  text-align: center;
+}
